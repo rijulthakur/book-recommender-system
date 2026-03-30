@@ -24,16 +24,16 @@ rows represent books and columns represent users, with each cell
 containing the rating given.
 
 **Data Filtering for Quality:**
-- Only "educated users" (users who have rated ≥200 books) are 
+- Only "educated users" (users who have rated >=200 books) are 
   included to ensure meaningful preference signals
-- Only "famous books" (books with ≥50 ratings) are included to 
+- Only "famous books" (books with >=50 ratings) are included to 
   ensure sufficient rating density
 
 **Cosine Similarity:** Each book is represented as a vector in 
 high-dimensional user space. The similarity between two books is 
 computed as the cosine of the angle between their vectors:
 
-similarity = (A · B) / (||A|| × ||B||)
+similarity = (A·B) / (||A|| × ||B||)
 
 A cosine similarity of 1 means identical rating patterns; 0 means 
 no similarity. The top-N most similar books are returned as 
