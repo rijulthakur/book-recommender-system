@@ -54,4 +54,7 @@ Three CSV files from the Book Recommendation Dataset:
 
 ## Author
 **Rijul Thakur**
-B.E. Computer Science and Engineering, Chitkara University (2019–2023)
+
+B.E. Computer Science and Engineering  
+Chitkara University (2019–2023)  
+Self-initiated project, 2024
